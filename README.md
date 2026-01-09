@@ -21,9 +21,9 @@ Version Control: Git & GitHub
 I have included .env file as mentioned in the task although its shared 
 
 PORT=5000
-MONGO_URI=your_mongodb_connection_string
-STRIPE_SECRET_KEY=your_stripe_secret_key
-STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
+MONGO_URI=mongodb+srv://satyam_db_user:taskmanager123@cluster0.ae7h9wo.mongodb.net/taskmanager?appName=Cluster0
+STRIPE_SECRET_KEY=sk_test_51S3BUzIhv7xmcWu7oTbJLxwz6mic2bikupTf78ngJQ0EldbJcZ6pUIY7Y7s27nZ3IVgmSBbfZqAHi7o6diX7aNAo00dAma7uPs
+STRIPE_PUBLISHABLE_KEY=pk_test_51S3BUzIhv7xmcWu7Pw0Uo9uhHrFwTgCUB3O1zyedKjHem2ivZNN0G06GD1Geob60AzBpTuHiizmP4HBXGBT8r0wG00lFMPHXL4
 CLIENT_URL=http://localhost:5173
 
 ▶️ How to Run the Project
