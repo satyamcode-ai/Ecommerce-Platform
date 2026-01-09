@@ -18,6 +18,8 @@ Version Control: Git & GitHub
 
 ⚙️ Environment Variables
 
+I have included .env file as mentioned in the task although its shared 
+
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 STRIPE_SECRET_KEY=your_stripe_secret_key
@@ -25,7 +27,9 @@ STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
 CLIENT_URL=http://localhost:5173
 
 ▶️ How to Run the Project
+
 1️⃣ Clone the Repository
+https://github.com/satyamcode-ai/Ecommerce-Platform
 
 2️⃣ Backend Setup
 cd backend
@@ -36,9 +40,6 @@ npm run dev
 cd frontend
 npm install
 npm start
-
-4️⃣ Stripe Webhook (Optional for Local Testing)
-stripe listen --forward-to localhost:5000/webhook
 
 🧪 Payment Flow Example
 
